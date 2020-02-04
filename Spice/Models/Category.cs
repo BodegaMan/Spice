@@ -11,10 +11,11 @@ namespace Spice.Models
         [Key]
         public int Id { get; set; }
 
+        [Display(Name="Category")]
         [Required]
         public string Name { get; set; }
 
-
-
+        // *** NOTE: Don't forget to add to ApplicationDbContext as 
+        //  public DbSet<Category> Category { get; set; } for migration purposes
     }
 }

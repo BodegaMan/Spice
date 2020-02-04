@@ -463,3 +463,14 @@ C:\Architecture\Repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\P
 C:\Architecture\Repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Architecture\Repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Architecture\Repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs
+C:\Architecture\Repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CreateButtonPartial.cshtml.g.cs
+C:\Architecture\Repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Create.cshtml.g.cs
+C:\Architecture\Repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CreateandReturnPartialView.cshtml.g.cs
+C:\Architecture\Repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_TableButtonsPartial.cshtml.g.cs
+C:\Architecture\Repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Edit.cshtml.g.cs
+C:\Architecture\Repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_EditandBack.cshtml.g.cs
+C:\Architecture\Repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Delete.cshtml.g.cs
+C:\Architecture\Repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_DeleteandReturnPartialView.cshtml.g.cs
+C:\Architecture\Repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_BackToIndex.cshtml.g.cs
+C:\Architecture\Repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Details.cshtml.g.cs
+C:\Architecture\Repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Subcategory\Index.cshtml.g.cs

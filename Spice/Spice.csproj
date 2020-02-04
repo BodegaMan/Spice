@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Areas\Admin\Views\Category\GetDetails.cshtml" />
     <Content Remove="Areas\Admin\Views\Category\View.cshtml" />
   </ItemGroup>
 

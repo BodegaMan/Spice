@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Category>
+﻿@model IEnumerable<Subcategory>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -9,7 +9,7 @@
 <div class="border backgroundWhite" >
     <div class="row">
         <div class="col-6">
-            <h2 class="text-info">Category List</h2>
+            <h2 class="text-info">Subcategory List</h2>
         </div>
         <div class="col-6 text-right">
             <partial name="_CreateButtonPartial" />
@@ -23,6 +23,9 @@
             <th>
                 @Html.DisplayNameFor(m => m.Name)
             </th>
+            <th>
+                @Html.DisplayNameFor(m => m.Category.Name)
+            </th>
             <th></th>
             <th></th>
         </tr>
@@ -33,6 +36,9 @@
                     @Html.DisplayFor(m => item.Name)
                 </td>
                 <td>
+                    @Html.DisplayFor(m => item.Category.Name)
+                </td>
+                <td>
                     <partial name="_TableButtonsPartial" model="item.Id" />
                 </td>
             </tr>
@@ -41,7 +47,7 @@
     }
     else
     {
-        <p><i class="fas fa-exclamation-triangle"></i> No Category Exist</p>
+        <p><i class="fas fa-exclamation-triangle"></i> No Subcategory Exist</p>
     }
 </div>
 
