@@ -474,3 +474,6 @@ C:\Architecture\Repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_De
 C:\Architecture\Repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_BackToIndex.cshtml.g.cs
 C:\Architecture\Repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Details.cshtml.g.cs
 C:\Architecture\Repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Subcategory\Index.cshtml.g.cs
+C:\Architecture\Repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Subcategory\Create.cshtml.g.cs
+C:\Architecture\Repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_StatusMessage.cshtml.g.cs
+C:\Architecture\Repos\Spice\Spice\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Subcategory\Edit.cshtml.g.cs

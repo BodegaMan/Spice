@@ -1,0 +1,54 @@
+﻿@model Spice.Models.ViewModels.SubcategoryViewModel
+@using Spice.Extensions
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<h2 class="=" text-info">Edit Subcategory</h2>
+<br />
+
+<partial name="_StatusMessage" model="Model.StatusMessage" />
+
+<div class="Border backgroundWhite row">
+    <div class="col-8 border-right">S
+        <form method="post" asp_action="Edit">
+            <input type="hidden" asp-for="subcategory.CategoryId" />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group row">
+                <div class="col-3">
+                    <label asp-for="subcategory.CategoryId" class="Col-form-label"></label>
+                </div>
+                <div class="col-5">
+                    <select id="ddlCategoryList" asp-for="subcategory.CategoryId" disabled asp-items="Model.CategoryList.ToSelectListItem(Model.subcategory.CategoryId)" class="form-control"></select>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-3">
+                    <label asp-for="subcategory.Name" class="Col-form-label"></label>
+                </div>
+                <div class="col-5">
+                    <input asp-for="subcategory.Name" class="form-control" />
+                </div>
+                <span asp-validation-for="subcategory.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group row">
+                <div class="col-5 offset-3">
+                    <partial name="_EditandBack" model="Model.subcategory.Id" />
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="col-3 offset-1">
+        @if (Model.subcategoryList.Count() > 0)
+        {
+            <p> Existing Subcategories</p>
+            <div id="SubCategoryList">
+                <ul class="list-group"></ul>
+            </div>
+        }
+    </div>
+
+</div>
