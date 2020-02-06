@@ -117,7 +117,7 @@ namespace Spice.Areas.Admin.Controllers
         //POST EDIT
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, SubcategoryViewModel model)
+        public async Task<IActionResult> Edit(SubcategoryViewModel model)
         {
             if (ModelState.IsValid)
             {
@@ -129,7 +129,7 @@ namespace Spice.Areas.Admin.Controllers
                 }
                 else
                 {
-                    var subCatFromDb = await _db.Subcategory.FindAsync(id);
+                    var subCatFromDb = await _db.Subcategory.FindAsync(model.subcategory.Id);
                     subCatFromDb.Name = model.subcategory.Name;
 
 
@@ -140,6 +140,7 @@ namespace Spice.Areas.Admin.Controllers
                 }
             }
 
+            // IF STATE NOT VALID RELOAD THE MODEL 
             SubcategoryViewModel modelVM = new SubcategoryViewModel()
             {
                 CategoryList = await _db.Category.ToListAsync(),

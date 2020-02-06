@@ -16,6 +16,7 @@
     <div class="col-8 border-right">S
         <form method="post" asp_action="Edit">
             <input type="hidden" asp-for="subcategory.CategoryId" />
+            <input type="hidden" asp-for="subcategory.Id" />
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group row">
                 <div class="col-3">
